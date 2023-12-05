@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #1a1a1a;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #1a1a1a;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #e15f41;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+}
+
+#sobre-a-lan-house,
+#cardapio {
+    background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #e15f41;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #e15f41;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link {
+    color: #e15f41;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 200px;
+    }
+}
+
+/* lan-house.css */
+
+/* ... (previous styles) ... */
+
+#fale-conosco button {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+#fale-conosco button:hover {
+    background-color: #3c77e2;
+}
+
+#fale-conosco .social-links a {
+    color: #4285f4;
+}
+
+#fale-conosco .social-links a:hover {
+    color: #3c77e2;
+}
+
+/* ... (remaining styles) ... */
